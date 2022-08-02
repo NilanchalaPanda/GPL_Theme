@@ -1,0 +1,285 @@
+/* -------- UNIVERSAL PART -------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* -------- HEADER PART -------- */
+
+/* PART 1 HEADER STARTED ===> MEMEBERSHIP DRIVE*/
+.top_header{
+    background-color: #8224e3!important;;
+}
+.container{
+    height: 6vh;
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    color: white;
+}
+.box1{
+    margin: auto 20px auto 20px;
+    font-weight: bold;
+}
+.box2{
+    display: flex;
+    margin: auto 5px auto 5px;
+}
+.box2 p{
+    margin: auto 10px;
+    border-radius: 15px;
+    padding: 4px 7px;
+    background-color: rgb(253, 51, 51);
+}
+
+/* PART 2 HEADER STARTED ===> SEARCH BAR*/
+.container2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.box_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+}
+.search{
+    border: 2px solid rgb(133, 174, 251);
+    background-color: rgb(225, 220, 220, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+.input{
+    width: 40vw;
+    height: 4vh;
+    border-radius: 40px;
+    padding: 3%;
+    outline: none;
+    background : transparent;
+    border: none;
+}
+.search img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.box_2{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 0;
+    color: white;
+}
+.box_2 p{
+    background-color: rgb(6, 11, 100);
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+.box_2 span{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* PART 3 HEADER STARTED ===> NAVIGAION BAR*/
+.nav{
+    background-color: black;
+    height: 7vh;
+}
+ul{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-size: 14px;
+}
+li{
+    margin: 11px;
+    text-decoration: none;
+    list-style: none;
+}
+li:hover{
+    font-weight: bold;
+}
+
+
+/* -------- MAIN SECTION PART -------- */
+
+/* PART 1 MAIN SECTION STARTED ===> FREE MEMEBERSHIP PLAN */
+.main1{
+    width: 100%;
+    height: 69vh;
+    background-image: url("../img/main\ image\ 1.jpeg");
+    background-size: cover;
+}
+.button{
+    display: flex;
+    height: 62vh;
+    width: 75vw;
+    justify-content: end;
+    align-items: flex-end;
+}
+.btn2{
+    padding: 15px 22px;
+    border-radius: 30px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 15px;
+}
+.btn2:hover{
+    background-color: rgb(42, 42, 211);
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+
+/* PART 2 MAIN SECTION STARTED ===> COUPON PLAN*/
+.main2{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 150px;
+    padding: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text p1{
+    font-weight: bolder;
+    color: white;
+    font-size: large;
+    margin: 5px 0;
+}
+p2{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(229, 255, 0);
+    margin: 5px 0;
+}
+p3{
+    font-weight: bolder;
+    color: rgb(255, 160, 27);
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+
+/* PART 3 MAIN SECTION STARTED ===> GPL PLUGINS AND THEMES */
+.main3{
+    border: 1px solid black;
+    border-radius: 19px;
+    width: 90%;
+    margin: 40px auto;
+    height: 100vh;
+    padding: 20px 90px;
+    background: linear-gradient(rgb(240, 129, 129), rgb(129, 129, 235));
+}
+.main3 p{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 1.7;   
+}
+.main3 img{
+    margin: 30px 0px 10px 25%;
+} 
+.main3 p1{
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height:1.6 ;
+}
+.main3 a{
+    color: rgb(255, 13, 0);
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+/* ------ FOOTER STARTED ------ */
+
+
+/* PART 1 FOOTER SECTION STARTED ===> DISCLAIMER & LINKS */
+#footer{
+    padding: 30px;
+    margin: 90px auto 0px auto;
+    background-color: rgba(108, 104, 104, 0.55);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer .boxa{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#footer .boxa h3, #footer .boxb h3{
+    padding: 5px;
+    font-size: 30px;
+    color:rgba(77, 73, 73, 0.935);
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+#footer .boxa p1{
+    color: rgb(46, 37, 37);
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#footer .boxb{
+    width: 30%;
+}
+
+#footer .boxb ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#footer .boxb ul a{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(46, 37, 37);
+    border-bottom: 1px solid grey;
+}
+#footer .boxb ul a:hover{
+    color: black;
+}
+
+/* PART 2 FOOTER SECTION STARTED ===> COPYRIGHT STRICKS */
+
+.copyright{
+    background-color: grey;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.copyright spana{
+    font-weight: bold;
+}
